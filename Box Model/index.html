@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box-Model</title>
+</head>
+<style>
+    aside,
+    article,
+    section,
+    header,
+    footer,
+    nav {
+        display: block;
+    }
+    
+    div,
+    p {
+        margin: 0;
+        padding: 0;
+    }
+    
+    html {
+        background: #ccc;
+    }
+    
+    .outer {
+        width: 400px;
+        height: 600px;
+        margin: 0 auto;
+        background: #9CF;
+        padding: 1px;
+    }
+    
+    .box {
+        background: #f90;
+        width: 300px;
+        height: 300px;
+        padding: 25px;
+        border: 2px solid black;
+        margin: 25px;
+    }
+    
+    p {
+        background: #EEA548;
+        height: 100%;
+    }
+</style>
+
+<body>
+    <div class="outer">
+        <div class="box">
+            <p>
+                CSS: Page Layouts introduces basic layout concepts, gives advice on how to create properly structured HTML based on prototypes and mockups, and goes into critical page layout skills such as floats and positioning. Author James Williamson shows how to
+                combine these techniques to create fixed, fluid, and responsive layouts. Designers are also shown how to enhance their pages through the creative use of CSS techniques like multi-column text, opacity, and the background property. Exercise
+                files are included with this course.
+            </p>
+        </div>
+    </div>
+</body>
+
+</html>
